@@ -28,5 +28,11 @@
 
         "scripts": {
           "test": "$(which nodeunit || echo node_modules/nodeunit/bin/nodeunit) test/unit/scripts.js && test/testparser.js && test/testconsolidator.js"
-        }
+        },
+        "licenses": [
+          {
+            "type": "BSD",
+            "url": "http://github.com/ariya/esprima/raw/master/LICENSE.BSD"
+          }
+        ]
 }
